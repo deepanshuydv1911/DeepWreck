@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Landing Page</title>
+    <meta property="og:title" content="Landing Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Raleway;
+        font-size: 18px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      html {
+      scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <div data-role="Header" class="home-navbar-container">
+          <div class="home-navbar">
+            <div class="home-left-side">
+              <a href="index.html" class="home-navlink">
+                <img
+                  alt="image"
+                  src="public/capture-osjrfvlb--transformed-photoroom-200w.png"
+                  class="home-image1"
+                />
+              </a>
+            </div>
+            <div class="home-links-container1">
+              <a href="pricing.html" class="home-link10">Prices</a>
+              <a href="pricing.html" class="home-link11 Anchor">Samples</a>
+              <a href="pricing.html" class="home-link12 Anchor">Process</a>
+            </div>
+            <div data-role="MobileMenu" class="home-mobile-menu">
+              <div class="home-container2">
+                <img
+                  alt="image"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="home-image2"
+                />
+                <div data-role="CloseMobileMenu" class="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon10">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-links-container2">
+                <a href="#resources" class="home-link13 Anchor">Resources</a>
+                <a href="#inspiration" class="home-link14 Anchor">
+                  Inspiration
+                </a>
+                <a href="#process" class="home-link15 Anchor">Process</a>
+                <span class="home-link16 Anchor">Our story</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <animate-on-reveal
+          animation="pulse"
+          duration="300ms"
+          delay="0s"
+          direction="normal"
+          easing="linear"
+          iteration="1"
+        >
+          <div
+            id="resources"
+            data-thq-animate-on-reveal="true"
+            class="home-hero"
+          >
+            <div class="home-content-container1">
+              <div class="home-hero-text">
+                <h1 class="home-heading1 Section-Heading">
+                  Tell the whole world about your idea!
+                </h1>
+                <span class="home-text10">
+                  We offer a diverse variety of designs to cater to all types of
+                  content creators, from gamers and vloggers to educators and
+                  entrepreneurs. No matter your niche, you’ll find the perfect
+                  style to complement your videos. Plus, our service is
+                  budget-friendly, offering premium designs at prices that won’t
+                  break the bank. Choose us for thumbnails that combine
+                  creativity, flexibility, and affordability, all in one
+                  convenient platform.
+                </span>
+                <a href="pricing.html" class="home-cta-btn Anchor button">
+                  START NOW
+                </a>
+              </div>
+            </div>
+          </div>
+        </animate-on-reveal>
+        <div id="inspiration" class="home-features">
+          <div class="home-heading-container1">
+            <h2 class="home-text11 Section-Heading">
+              Which are the greatest things about it?
+            </h2>
+          </div>
+          <div class="home-cards-container1">
+            <div class="home-features-card1">
+              <div class="home-icon-container1">
+                <svg width="32" height="32" viewBox="0 0 32 32">
+                  <path
+                    d="M28.83 23.17L23 17.33V13a1 1 0 0 0-.29-.71l-10-10a1 1 0 0 0-1.42 0l-9 9a1 1 0 0 0 0 1.42l10 10A1 1 0 0 0 13 23h4.34l5.83 5.84a4 4 0 0 0 5.66-5.66ZM6 10.41l2.29 2.3l1.42-1.42L7.41 9L9 7.41l4.29 4.3l1.42-1.42L10.41 6L12 4.41L18.59 11L11 18.59L4.41 12Zm21.41 17a2 2 0 0 1-2.82 0l-6.13-6.12a1.8 1.8 0 0 0-.71-.29h-4.34l-1-1L20 12.41l1 1v4.34a1 1 0 0 0 .29.7l6.12 6.14a2 2 0 0 1 0 2.82"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-text-container1">
+                <span class="home-heading2 Card-Heading">Customizable</span>
+                <span class="home-text12">
+                  We offer custom thumbnail design services tailored to your
+                  specific needs. Whether you have a clear vision or a general
+                  idea,
+                </span>
+              </div>
+            </div>
+            <div class="home-features-card2">
+              <div class="home-icon-container2">
+                <svg viewBox="0 0 1024 1024" class="home-icon14">
+                  <path
+                    d="M533.333 234.667c-11.776 0-21.333 9.557-21.333 21.333s9.557 21.333 21.333 21.333c46.208 0 83.797 37.589 83.797 83.797 0 11.776 9.557 21.333 21.333 21.333s21.333-9.557 21.333-21.333c0-69.717-56.747-126.464-126.464-126.464z"
+                  ></path>
+                  <path
+                    d="M533.333 42.667c-176.469 0-320 143.531-320 320 0 63.403 18.773 124.672 54.357 177.707 0.981 2.005 2.091 3.925 3.413 5.76 77.867 111.189 91.563 146.347 91.563 179.2v128c0 23.552 19.115 42.667 42.667 42.667h85.333c0 11.093 4.693 22.187 12.373 30.293 8.107 7.68 19.2 12.373 30.293 12.373 11.093 0 22.187-4.693 30.293-12.373 7.68-8.107 12.373-19.2 12.373-30.293h85.333c23.552 0 42.667-19.115 42.667-42.667v-128c0-33.365 13.611-68.693 90.965-179.157 38.187-54.4 58.368-117.845 58.368-183.509 0-176.469-143.531-320-320-320zM618.667 810.667h-170.667v-42.667h170.667v42.667zM725.12 497.195c-62.549 89.301-91.435 140.331-101.76 185.472h-47.36v-85.333c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v85.333h-47.488c-10.24-43.947-38.315-93.867-98.389-180.053-0.939-1.877-2.048-3.712-3.285-5.504-28.032-39.851-42.837-86.357-42.837-134.443 0-129.408 105.259-234.667 234.667-234.667s234.667 105.259 234.667 234.667c0 48.043-14.805 94.549-42.88 134.528z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-text-container2">
+                <span class="home-heading3 Card-Heading">Variety</span>
+                <span class="home-text13">
+                  We offer a diverse range of thumbnail styles to suit various
+                  content types and audiences.
+                </span>
+              </div>
+            </div>
+            <div class="home-features-card3">
+              <div class="home-icon-container3">
+                <svg width="32" height="32" viewBox="0 0 32 32">
+                  <path
+                    d="M29.39 14.527L17.474 2.609C17.067 2.203 16.533 2 16 2s-1.067.203-1.473.61L2.609 14.526C2.203 14.933 2 15.467 2 16s.203 1.067.61 1.473l11.917 11.918c.406.406.94.609 1.473.609s1.067-.203 1.473-.61l11.918-11.917c.406-.406.609-.94.609-1.473s-.203-1.067-.61-1.473"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-text-container3">
+                <span class="home-heading4 Card-Heading">Uniqueness</span>
+                <span class="home-text14">
+                  We collaborate closely with each client to understand their
+                  vision and craft tailored thumbnail designs that resonate with
+                  their target audience.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="process" class="home-services">
+          <div class="home-heading-container2">
+            <h1 class="home-text15">More things to explore</h1>
+            <span class="home-text16 Section-Text">
+              Lorme ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero.
+            </span>
+          </div>
+          <div class="home-cards-container2">
+            <div class="home-service-card">
+              <h3 class="home-text17 Card-Heading">Prices</h3>
+              <span class="home-text18 Card-Text">
+                Cheaper Price to Save Your Pocket, but Not Your Awesome Videos.
+              </span>
+              <a href="pricing.html" class="home-link17 Anchor">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator1"></div>
+        <div class="home-section-separator2"></div>
+        <div class="home-get-in-touch">
+          <h2 class="home-text19 Section-Heading">Get in touch With</h2>
+          <div class="home-content-container2">
+            <div class="home-locations-container">
+              <div class="home-location1">
+                <div class="home-container3">
+                  <span class="home-heading5">Deep Wreck&nbsp;&nbsp;</span>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="home-icon19"
+                  >
+                    <path
+                      d="M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1M4 18l-1-5h18l-2 4M5 13V7h8l4 6M7 7V3H6"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  <div class="home-container4">
+                    <svg
+                      viewBox="0 0 1170.2857142857142 1024"
+                      class="home-icon21"
+                    ></svg>
+                  </div>
+                  <path
+                    d="M1034.857 888.571c14.286-14.286 37.143-14.286 51.429 0l73.143 73.143-51.429 51.429-47.429-47.429-47.429 47.429c-6.857 7.429-16.571 10.857-25.714 10.857s-18.857-3.429-25.714-10.857l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-73.143-73.143 51.429-51.429 47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429zM135.429 866.857c-14.286 14.286-37.143 14.286-51.429 0l-73.143-73.143 51.429-51.429 47.429 46.857 47.429-46.857c14.286-14.286 37.143-14.286 51.429 0l47.429 46.857 36.571-36.571v-167.429l-120-179.429c-13.143-20-4-47.429 18.857-55.429l101.143-33.143v-170.857h73.143v-73.143h146.286v-73.143h146.286v73.143h146.286v73.143h73.143v170.857l101.143 33.143c22.857 8 32 35.429 18.857 55.429l-120 179.429v167.429l10.857-10.286c14.286-14.286 37.143-14.286 51.429 0l47.429 46.857 47.429-46.857c14.286-14.286 37.143-14.286 51.429 0l73.143 73.143-51.429 51.429-47.429-47.429-47.429 47.429c-6.857 7.429-16.571 10.857-25.714 10.857s-18.857-3.429-25.714-10.857l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429zM365.714 219.429v73.143l219.429-73.143 219.429 73.143v-73.143h-73.143v-73.143h-292.571v73.143h-73.143z"
+                  ></path>
+                  <path
+                    d="M1034.857 888.571c14.286-14.286 37.143-14.286 51.429 0l73.143 73.143-51.429 51.429-47.429-47.429-47.429 47.429c-6.857 7.429-16.571 10.857-25.714 10.857s-18.857-3.429-25.714-10.857l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-73.143-73.143 51.429-51.429 47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429zM135.429 866.857c-14.286 14.286-37.143 14.286-51.429 0l-73.143-73.143 51.429-51.429 47.429 46.857 47.429-46.857c14.286-14.286 37.143-14.286 51.429 0l47.429 46.857 36.571-36.571v-167.429l-120-179.429c-13.143-20-4-47.429 18.857-55.429l101.143-33.143v-170.857h73.143v-73.143h146.286v-73.143h146.286v73.143h146.286v73.143h73.143v170.857l101.143 33.143c22.857 8 32 35.429 18.857 55.429l-120 179.429v167.429l10.857-10.286c14.286-14.286 37.143-14.286 51.429 0l47.429 46.857 47.429-46.857c14.286-14.286 37.143-14.286 51.429 0l73.143 73.143-51.429 51.429-47.429-47.429-47.429 47.429c-6.857 7.429-16.571 10.857-25.714 10.857s-18.857-3.429-25.714-10.857l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429zM365.714 219.429v73.143l219.429-73.143 219.429 73.143v-73.143h-73.143v-73.143h-292.571v73.143h-73.143z"
+                  ></path>
+                </div>
+                <svg
+                  viewBox="0 0 1170.2857142857142 1024"
+                  class="home-icon24"
+                ></svg>
+                <path
+                  d="M1034.857 888.571c14.286-14.286 37.143-14.286 51.429 0l73.143 73.143-51.429 51.429-47.429-47.429-47.429 47.429c-6.857 7.429-16.571 10.857-25.714 10.857s-18.857-3.429-25.714-10.857l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-73.143-73.143 51.429-51.429 47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429 47.429-47.429c14.286-14.286 37.143-14.286 51.429 0l47.429 47.429zM135.429 866.857c-14.286 14.286-37.143 14.286-51.429 0l-73.143-73.143 51.429-51.429 47.429 46.857 47.429-46.857c14.286-14.286 37.143-14.286 51.429 0l47.429 46.857 36.571-36.571v-167.429l-120-179.429c-13.143-20-4-47.429 18.857-55.429l101.143-33.143v-170.857h73.143v-73.143h146.286v-73.143h146.286v73.143h146.286v73.143h73.143v170.857l101.143 33.143c22.857 8 32 35.429 18.857 55.429l-120 179.429v167.429l10.857-10.286c14.286-14.286 37.143-14.286 51.429 0l47.429 46.857 47.429-46.857c14.286-14.286 37.143-14.286 51.429 0l73.143 73.143-51.429 51.429-47.429-47.429-47.429 47.429c-6.857 7.429-16.571 10.857-25.714 10.857s-18.857-3.429-25.714-10.857l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429-47.429 47.429c-14.286 14.286-37.143 14.286-51.429 0l-47.429-47.429zM365.714 219.429v73.143l219.429-73.143 219.429 73.143v-73.143h-73.143v-73.143h-292.571v73.143h-73.143z"
+                ></path>
+                <div class="home-email">
+                  <svg viewBox="0 0 1024 1024" class="home-icon26">
+                    <path
+                      d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                    ></path>
+                  </svg>
+                  <span>deepboiioff@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator3"></div>
+        <div class="home-footer-container">
+          <div class="home-footer">
+            <div class="home-social-links">
+              <a
+                href="https://discord.gg/JdGqpNY6"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link18"
+              >
+                <svg
+                  width="36"
+                  height="36"
+                  viewBox="0 0 24 24"
+                  class="home-icon28"
+                >
+                  <path
+                    d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.6 18.6 0 0 0-5.487 0a12 12 0 0 0-.617-1.23A.08.08 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.1.1 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055a20 20 0 0 0 5.993 2.98a.08.08 0 0 0 .084-.026a14 14 0 0 0 1.226-1.963a.074.074 0 0 0-.041-.104a13 13 0 0 1-1.872-.878a.075.075 0 0 1-.008-.125q.19-.14.372-.287a.08.08 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.08.08 0 0 1 .079.009q.18.148.372.288a.075.075 0 0 1-.006.125q-.895.515-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.08.08 0 0 0 .084.028a20 20 0 0 0 6.002-2.981a.08.08 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.028M8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38c0-1.312.956-2.38 2.157-2.38c1.21 0 2.176 1.077 2.157 2.38c0 1.312-.956 2.38-2.157 2.38m7.975 0c-1.183 0-2.157-1.069-2.157-2.38c0-1.312.955-2.38 2.157-2.38c1.21 0 2.176 1.077 2.157 2.38c0 1.312-.946 2.38-2.157 2.38"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="home-copyright-container">
+              <svg viewBox="0 0 1024 1024" class="home-icon30">
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path>
+              </svg>
+              <span class="Anchor">Copyright, 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pricing - Landing Page</title>
+    <meta property="og:title" content="Pricing - Landing Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Raleway;
+        font-size: 18px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      html {
+      scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./pricing.css" rel="stylesheet" />
+
+      <div class="pricing-container1">
+        <div class="pricing-navbar">
+          <div class="pricing-left-side">
+            <a href="index.html" class="pricing-navlink">
+              <img
+                alt="image"
+                src="public/capture-osjrfvlb--transformed-photoroom-200w.png"
+                class="pricing-image1"
+              />
+            </a>
+          </div>
+          <div class="pricing-links-container1">
+            <a href="pricing.html" class="pricing-link10">Prices</a>
+            <a href="#Logos8" class="pricing-link11 Anchor">Samples</a>
+            <a href="#FAQ141" class="pricing-link12 Anchor">Process</a>
+          </div>
+          <div class="pricing-right-side"></div>
+          <div data-role="MobileMenu" class="pricing-mobile-menu">
+            <div class="pricing-container2">
+              <img
+                alt="image"
+                src="https://play.teleporthq.io/static/svg/default-img.svg"
+                class="pricing-image2"
+              />
+              <div data-role="CloseMobileMenu" class="pricing-close-menu">
+                <svg viewBox="0 0 1024 1024" class="pricing-icon1">
+                  <path
+                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="pricing-links-container2">
+              <a href="#resources" class="pricing-link13 Anchor">Resources</a>
+              <a href="#inspiration" class="pricing-link14 Anchor">
+                Inspiration
+              </a>
+              <a href="#process" class="pricing-link15 Anchor">Process</a>
+              <span class="pricing-link16 Anchor">Our story</span>
+            </div>
+          </div>
+        </div>
+        <pricing14-wrapper class="pricing14-wrapper">
+          <!--Pricing14 component-->
+          <div class="pricing14-pricing23 thq-section-padding">
+            <div class="pricing14-max-width thq-section-max-width">
+              <div class="pricing14-section-title">
+                <span class="pricing14-text10 thq-body-small">
+                  <fragment class="pricing-fragment15">
+                    <span class="pricing-text15">
+                      Choose The Perfect Plan for You
+                    </span>
+                  </fragment>
+                </span>
+                <div class="pricing14-content">
+                  <h2 class="pricing14-text11 thq-heading-2">
+                    <fragment class="pricing-fragment16">
+                      <span class="pricing-text16">Pricing Plans</span>
+                    </fragment>
+                  </h2>
+                </div>
+              </div>
+              <div class="pricing14-tabs">
+                <button
+                  class="pricing14-button1 thq-button-outline thq-button-animated"
+                >
+                  <span class="thq-body-small">Monthly</span>
+                </button>
+                <button
+                  class="pricing14-button2 thq-button-filled thq-button-animated"
+                >
+                  <span class="thq-body-small">Yearly</span>
+                </button>
+              </div>
+              <div class="pricing14-container1">
+                <div class="pricing14-column1 thq-card">
+                  <div class="pricing14-price10">
+                    <div class="pricing14-price11">
+                      <p class="pricing14-text14 thq-body-large">
+                        <fragment class="pricing-fragment10">
+                          <span class="pricing-text10">Basic plan</span>
+                        </fragment>
+                      </p>
+                      <h3 class="pricing14-text15 thq-heading-3">
+                        <fragment class="pricing-fragment17">
+                          <span class="pricing-text17">₹990 For 12 Design</span>
+                        </fragment>
+                      </h3>
+                      <p class="thq-body-large">
+                        <fragment class="pricing-fragment20">
+                          <span class="pricing-text20">₹99 for One</span>
+                        </fragment>
+                      </p>
+                    </div>
+                    <div class="pricing14-list1">
+                      <div class="pricing14-list-item10">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment30">
+                            <span class="pricing-text30">
+                              Customizable designs
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item11">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment31">
+                            <span class="pricing-text31">
+                              <span>Thumbnails Inspirations&nbsp;</span>
+                              <br />
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item12">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment32">
+                            <span class="pricing-text34">
+                              No Copyright Issues
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing14-column2 thq-card">
+                  <div class="pricing14-price12">
+                    <div class="pricing14-price13">
+                      <p class="pricing14-text20 thq-body-large">
+                        <fragment class="pricing-fragment11">
+                          <span class="pricing-text11">Business plan</span>
+                        </fragment>
+                      </p>
+                      <h3 class="pricing14-text21 thq-heading-3">
+                        <fragment class="pricing-fragment18">
+                          <span class="pricing-text18">
+                            ₹1490 For 12 Design
+                          </span>
+                        </fragment>
+                      </h3>
+                      <p class="thq-body-large">
+                        <fragment class="pricing-fragment22">
+                          <span class="pricing-text22">₹149 for One</span>
+                        </fragment>
+                      </p>
+                    </div>
+                    <div class="pricing14-list2">
+                      <div class="pricing14-list-item13">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment33">
+                            <span class="pricing-text35">
+                              Customizable designs
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item14">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment34">
+                            <span class="pricing-text36">Priority support</span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item15">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment35">
+                            <span class="pricing-text37">
+                              <span>No Copyright Issues</span>
+                              <br />
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item16">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment36">
+                            <span class="pricing-text40">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="pricing14-container2">
+                <div class="pricing14-column3 thq-card">
+                  <div class="pricing14-price14">
+                    <div class="pricing14-price15">
+                      <span class="pricing14-text27 thq-body-large">
+                        <fragment class="pricing-fragment12">
+                          <span class="pricing-text12">Basic plan</span>
+                        </fragment>
+                      </span>
+                      <h3 class="pricing14-text28 thq-heading-3">
+                        <fragment class="pricing-fragment19">
+                          <span class="pricing-text19">$200/yr</span>
+                        </fragment>
+                      </h3>
+                      <span class="thq-body-large">
+                        <fragment class="pricing-fragment25">
+                          <span class="pricing-text25">or $20 monthly</span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="pricing14-list3">
+                      <div class="pricing14-list-item17">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment37">
+                            <span class="pricing-text41">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item18">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment38">
+                            <span class="pricing-text42">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item19">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment39">
+                            <span class="pricing-text43">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="pricing14-button3 thq-button-outline thq-button-animated"
+                  >
+                    <span class="thq-body-small">
+                      <fragment class="pricing-fragment24">
+                        <span class="pricing-text24">Subscribe Now</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+                <div class="pricing14-column4 thq-card">
+                  <div class="pricing14-price16">
+                    <div class="pricing14-price17">
+                      <span class="pricing14-text34 thq-body-large">
+                        <fragment class="pricing-fragment13">
+                          <span class="pricing-text13">Business plan</span>
+                        </fragment>
+                      </span>
+                      <h3 class="pricing14-text35 thq-heading-3">
+                        <fragment class="pricing-fragment21">
+                          <span class="pricing-text21">$299/yr</span>
+                        </fragment>
+                      </h3>
+                      <span class="thq-body-large">
+                        <fragment class="pricing-fragment27">
+                          <span class="pricing-text27">or $29 monthly</span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="pricing14-list4">
+                      <div class="pricing14-list-item20">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment40">
+                            <span class="pricing-text44">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item21">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment41">
+                            <span class="pricing-text45">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item22">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment42">
+                            <span class="pricing-text46">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item23">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment43">
+                            <span class="pricing-text47">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="pricing14-button4 thq-button-filled thq-button-animated"
+                  >
+                    <span class="thq-body-small">
+                      <fragment class="pricing-fragment26">
+                        <span class="pricing-text26">Subscribe Now</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+                <div class="pricing14-column5 thq-card">
+                  <div class="pricing14-price18">
+                    <div class="pricing14-price19">
+                      <span class="pricing14-text42 thq-body-large">
+                        <fragment class="pricing-fragment14">
+                          <span class="pricing-text14">Enterprise plan</span>
+                        </fragment>
+                      </span>
+                      <h3 class="pricing14-text43 thq-heading-3">
+                        <fragment class="pricing-fragment23">
+                          <span class="pricing-text23">$499/yr</span>
+                        </fragment>
+                      </h3>
+                      <span class="thq-body-large">
+                        <fragment class="pricing-fragment29">
+                          <span class="pricing-text29">or $49 monthly</span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="pricing14-list5">
+                      <div class="pricing14-list-item24">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment44">
+                            <span class="pricing-text48">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item25">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment45">
+                            <span class="pricing-text49">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item26">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment46">
+                            <span class="pricing-text50">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item27">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment47">
+                            <span class="pricing-text51">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item28">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="pricing-fragment48">
+                            <span class="pricing-text52">
+                              Feature text goes here
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="pricing14-button5 thq-button-filled thq-button-animated"
+                  >
+                    <span class="thq-body-small">
+                      <fragment class="pricing-fragment28">
+                        <span class="pricing-text28">Subscribe Now</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </pricing14-wrapper>
+        <logos8-wrapper class="logos8-wrapper">
+          <!--Logos8 component-->
+          <div id="Logos8" class="logos8-container1 thq-section-padding">
+            <div class="logos8-max-width thq-section-max-width">
+              <div class="logos8-container2">
+                <h2 class="thq-heading-2 logos8-text1">
+                  <fragment class="pricing-fragment50">
+                    <span class="pricing-text57">
+                      SAMPLES MADE BY OUR TEAM&nbsp;
+                    </span>
+                  </fragment>
+                </h2>
+                <p class="logos8-text2 thq-body-large">
+                  <fragment class="pricing-fragment49">
+                    <span class="pricing-text53">
+                      <span class="pricing-text54">
+                        Note :- Using These Thumbnails Without The Permission Of
+                        The Channel&nbsp;
+                      </span>
+                      <span class="pricing-text55">
+                        These Thumbnails Are Used At, Will Lead You To Face
+                        Copyright Issues.
+                      </span>
+                      <br />
+                    </span>
+                  </fragment>
+                </p>
+              </div>
+              <div class="logos8-container3 thq-grid-2">
+                <img
+                  alt="Unique Designs"
+                  src="https://cdn.discordapp.com/attachments/1307710577803792487/1308354732657475646/musa_bhaii.jpg?ex=673da3cc&amp;is=673c524c&amp;hm=ecec9503ea321ee1a0cfe4ab4e5a8edb6c048d92185de32b63765b3eef55c85c&amp;"
+                  class="logos8-logo5 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="Client Satisfaction"
+                  src="https://cdn.discordapp.com/attachments/1307710577803792487/1308354734238994442/musa_illegal.jpg?ex=673da3cc&amp;is=673c524c&amp;hm=425233a929b6944913cc02657dc97be023d7c566ac69a0fd7e3e121514b6fe9c&amp;"
+                  class="logos8-logo61 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="Client Satisfaction"
+                  src="https://cdn.discordapp.com/attachments/1307710577803792487/1308364712643137547/loyal_smp.jpg?ex=673dad17&amp;is=673c5b97&amp;hm=6dd5fa33b1b2d948983a1d442ac359e8d7a2dc00ae699431f7c2eca9d1dd70ef&amp;"
+                  class="logos8-logo62 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="Professional Service"
+                  src="https://cdn.discordapp.com/attachments/1307710577803792487/1308354735937556554/pixelcut-export-light-blue.jpg?ex=673da3cd&amp;is=673c524d&amp;hm=c432ecc79184266ac1cdf2c4a0f896d1d7da42c98b9a6776bc265a5e99ed7680&amp;"
+                  class="logos8-logo71 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="Professional Service"
+                  src="https://cdn.discordapp.com/attachments/1307710577803792487/1308364713003843750/trapped.jpg?ex=673dad17&amp;is=673c5b97&amp;hm=7a0a9b6f075ad0c2472eaf7de2ae9e871d0e462953b7ea3e746774b2a901afdd&amp;"
+                  class="logos8-logo72 thq-img-ratio-16-9"
+                />
+                <img
+                  alt="Creative Solutions"
+                  src="https://cdn.discordapp.com/attachments/1307710577803792487/1308354743243903046/Untitled-2.jpg?ex=673da3ce&amp;is=673c524e&amp;hm=46f68f364eb34f8852c8d6781d44c914d62467ac743460b1df0ad7a63947e2bd&amp;"
+                  class="logos8-logo8 thq-img-ratio-16-9"
+                />
+              </div>
+            </div>
+          </div>
+        </logos8-wrapper>
+        <a
+          href="https://discord.gg/JdGqpNY6"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="pricing-link17"
+        >
+          <span>Join Our</span>
+          <span class="pricing-text59">Discord</span>
+          <span>Server For The Full Process&nbsp;</span>
+        </a>
+        <faq141-wrapper class="faq141-wrapper">
+          <!--FAQ141 component-->
+          <div id="FAQ141" class="faq141faq8 thq-section-padding">
+            <div class="faq141-max-width thq-section-max-width">
+              <div class="faq141-container thq-flex-column">
+                <div class="faq141-section-title thq-flex-column"></div>
+              </div>
+              <div class="faq141-content1 thq-flex-column">
+                <div class="faq141-content2">
+                  <h2 class="faq141-text1 thq-heading-2">
+                    <fragment class="pricing-fragment52">
+                      <span class="pricing-text67">Still have a question?</span>
+                    </fragment>
+                  </h2>
+                  <span class="faq141-text2 thq-body-large">
+                    <fragment class="pricing-fragment51">
+                      <span class="pricing-text61">
+                        <span>Feel Free to Contact Us</span>
+                        <br />
+                        <span>At Our Discord Server Or MAIL, Us At</span>
+                        <span class="pricing-text65">
+                          deepboiioff@gmail.com
+                        </span>
+                        <br />
+                      </span>
+                    </fragment>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </faq141-wrapper>
+        <div class="pricing-footer">
+          <div class="pricing-social-links">
+            <a
+              href="https://discord.gg/JdGqpNY6"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="pricing-link18"
+            >
+              <svg
+                width="36"
+                height="36"
+                viewBox="0 0 24 24"
+                class="pricing-icon3"
+              >
+                <path
+                  d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.6 18.6 0 0 0-5.487 0a12 12 0 0 0-.617-1.23A.08.08 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.1.1 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055a20 20 0 0 0 5.993 2.98a.08.08 0 0 0 .084-.026a14 14 0 0 0 1.226-1.963a.074.074 0 0 0-.041-.104a13 13 0 0 1-1.872-.878a.075.075 0 0 1-.008-.125q.19-.14.372-.287a.08.08 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.08.08 0 0 1 .079.009q.18.148.372.288a.075.075 0 0 1-.006.125q-.895.515-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.08.08 0 0 0 .084.028a20 20 0 0 0 6.002-2.981a.08.08 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.028M8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38c0-1.312.956-2.38 2.157-2.38c1.21 0 2.176 1.077 2.157 2.38c0 1.312-.956 2.38-2.157 2.38m7.975 0c-1.183 0-2.157-1.069-2.157-2.38c0-1.312.955-2.38 2.157-2.38c1.21 0 2.176 1.077 2.157 2.38c0 1.312-.946 2.38-2.157 2.38"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <div class="pricing-copyright-container">
+            <svg viewBox="0 0 1024 1024" class="pricing-icon5">
+              <path
+                d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+              ></path>
+            </svg>
+            <span class="Anchor">Copyright, 2023</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script>
+  </body>
+</html>
